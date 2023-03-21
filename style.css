@@ -1,0 +1,82 @@
+:root{
+    --bg-card-color: #0dcaf0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color:rgb(14, 196, 111);
+    color: white;
+}
+
+/* nav */
+#heading{
+    margin-top: 150px;
+}
+
+#search-bar{
+    max-width: 500px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 40px;
+}
+
+
+
+/* Meal Card */
+#card{
+    padding: 10px;
+    color: white;
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--bg-card-color);
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--bg-card-color);
+}
+
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+
+/* favourites */
+#favourites-body{
+    background-color:#0e58ad ;
+}
