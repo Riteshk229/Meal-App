@@ -11,4 +11,4 @@ This application display the information in an easy to read format and the users
 - Mobile and desktop compatible
 
 ## You can view the live demonstration using this link
-https://riteshk229.github.io/Meal-App.github.io/
+https://riteshk229.github.io/Meal-App/
